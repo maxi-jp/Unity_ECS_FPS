@@ -78,6 +78,7 @@ public class ECSManager : MonoBehaviour
             {
                 Entity instance = entityManager.Instantiate(bullet);
 
+                // random initial bullet position
                 Vector3 startPos = camera.transform.position + UnityEngine.Random.insideUnitSphere * 2.0f;
 
                 entityManager.SetComponentData(instance, new Translation { Value = startPos });
