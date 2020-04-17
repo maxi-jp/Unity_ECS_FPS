@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5254721316429405040}
   - component: {fileID: 7295621423974401676}
   - component: {fileID: 2441339268307412005}
+  - component: {fileID: 5086759842644518769}
   m_Layer: 0
   m_Name: droplet
   m_TagString: Untagged
@@ -217,3 +218,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 50
+--- !u!114 &5086759842644518769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5545171099807841652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe3cca8b359d644f93efd587bd79eb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeLeft: 2
