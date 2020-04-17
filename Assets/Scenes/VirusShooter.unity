@@ -675,6 +675,8 @@ MonoBehaviour:
     type: 3}
   redCellsPrefab: {fileID: 6720947738339928338, guid: edd16b56a57111241a522c418250acf7,
     type: 3}
+  whiteCellsPrefab: {fileID: 4350263757236320757, guid: 8df51b82bde713249a940ef42a6785ec,
+    type: 3}
   bulletPrefab: {fileID: 5545171099807841652, guid: 015dd2830c4a6db4ba571bb7c3f61741,
     type: 3}
   virusCount: 300
