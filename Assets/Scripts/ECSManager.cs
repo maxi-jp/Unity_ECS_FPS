@@ -32,6 +32,7 @@ public class ECSManager : MonoBehaviour
 
             float3 position = new float3(x, y, z);
             entityManager.SetComponentData(instance, new Translation { Value = position });
+            entityManager.SetComponentData(instance, new FloatData { speed = UnityEngine.Random.Range(0.1f, 1.0f) });
         }
     }
 
