@@ -16,6 +16,7 @@ public class ECSManager : MonoBehaviour
     // prefabs references
     public GameObject virusPrefab;
     public GameObject redCellsPrefab;
+    public GameObject whiteCellsPrefab;
     public GameObject bulletPrefab;
 
     public int virusCount = 500;
@@ -25,6 +26,8 @@ public class ECSManager : MonoBehaviour
     BlobAssetStore store;
 
     private Entity bullet;
+
+    public static Entity whiteCell;
 
     // Start is called before the first frame update
     void Start()
@@ -36,6 +39,7 @@ public class ECSManager : MonoBehaviour
         Entity virus = GameObjectConversionUtility.ConvertGameObjectHierarchy(virusPrefab, settings);
         Entity redBlood = GameObjectConversionUtility.ConvertGameObjectHierarchy(redCellsPrefab, settings);
         bullet = GameObjectConversionUtility.ConvertGameObjectHierarchy(bulletPrefab, settings);
+        whiteCell = GameObjectConversionUtility.ConvertGameObjectHierarchy(whiteCellsPrefab, settings);
 
         // instantiate the viruses
         for (int i = 0; i < virusCount; i++)

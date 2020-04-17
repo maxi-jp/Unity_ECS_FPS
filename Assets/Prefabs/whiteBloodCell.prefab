@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2622198730077605161}
   - component: {fileID: 839933811769959276}
   - component: {fileID: 6158455067447104978}
+  - component: {fileID: -7765352623610688567}
   m_Layer: 0
   m_Name: whiteBloodCell
   m_TagString: Untagged
@@ -203,3 +204,16 @@ MonoBehaviour:
       m_Override: 0
       m_Value: 0000000000000000
   m_ConvexRadius_Deprecated: -1
+--- !u!114 &-7765352623610688567
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4350263757236320757}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe3cca8b359d644f93efd587bd79eb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeLeft: 5
