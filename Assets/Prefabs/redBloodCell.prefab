@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5006116398756617678}
   - component: {fileID: 3396768457541813397}
   - component: {fileID: 384125668184911860}
+  - component: {fileID: 282460710777347202}
   m_Layer: 0
   m_Name: redBloodCell
   m_TagString: Untagged
@@ -203,3 +204,16 @@ MonoBehaviour:
       m_Override: 0
       m_Value: 0000000000000000
   m_ConvexRadius_Deprecated: -1
+--- !u!114 &282460710777347202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6720947738339928338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ddda23dc336748418bc23e7585ffcca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0

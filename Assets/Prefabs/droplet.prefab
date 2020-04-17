@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6109328267814947240}
   - component: {fileID: 5254721316429405040}
   - component: {fileID: 7295621423974401676}
+  - component: {fileID: 2441339268307412005}
   m_Layer: 0
   m_Name: droplet
   m_TagString: Untagged
@@ -203,3 +204,16 @@ MonoBehaviour:
       m_Override: 0
       m_Value: 0000000000000000
   m_ConvexRadius_Deprecated: -1
+--- !u!114 &2441339268307412005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5545171099807841652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfd4d5ea5c82874469b25a914ca1d060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 50
